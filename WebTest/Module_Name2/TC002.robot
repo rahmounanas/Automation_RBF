@@ -5,9 +5,11 @@ Test Teardown    Teardown Web
 
 *** Test Cases ***
 
-Ouvrir la plateforme
+Aller sur Produit
     [Tags]    TC002
-    [Documentation]    Cas de test d'ouverture de la plateforme
+    [Documentation]    Aller sur produit
     
+    SeleniumLibrary.Wait Until Element Is Visible    //a[@href="/products"]    ${timeout}
+    SeleniumLibrary.Click Element    //a[@href="/products"]
     Sleep    5s
     Log To Console    Success

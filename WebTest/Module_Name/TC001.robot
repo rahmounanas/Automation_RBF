@@ -8,6 +8,6 @@ Test Teardown    Teardown Web
 Ouvrir la plateforme
     [Tags]    TC001
     [Documentation]    Cas de test d'ouverture de la plateforme
-    
+
     Sleep    5s
     Log To Console    Success
